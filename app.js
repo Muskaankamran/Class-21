@@ -44,30 +44,61 @@
 
 
 //________________________________QUESTION NO 5
-
-
-
-
 //____________________________________QUESTION NO 6
-function factorial(n) {
-  var result = 1
-  for(var i=1; i<=n;i++){
-    result*=i
-  }
-  return result
-}
-var userInput=prompt("Enter a num: ");
-document.write(factorial(userInput));
+// function factorial(n) {
+//   var result = 1
+//   for(var i=1; i<=n;i++){
+//     result*=i
+//   }
+//   return result
+// }
+// var userInput=prompt("Enter a num: ");
+// document.write(factorial(userInput));
 
 
 
+//______________________________________QUESTION NO 7
+// function counting(start,end){
+//     // var startCount=prompt("Write start num: ");
+//     // var endCount=prompt("Write end num: ");
+//     var result=" ";
+//     for(var i=start;i<=end;i++){
+//      result+=i
+//     }
+//     return result
+// }
+// var startCount=+prompt("Write start num: ")
+// var endCount=+prompt("Write end num: ")
+// document.write(counting(startCount+endCount))
 
 
+// function counting(start, end){
+//     var result = "";
+//     for(var i = start; i <= end; i++){
+//         result += i + " " + "<br/>";
+//     }
+//     return result;
+// }
+
+// var startCount = +prompt("Write start num: ");
+// var endCount = +prompt("Write end num: ");
+
+// document.write(counting(startCount, endCount));
 
 
+//_______________________________________QUESTION NO 8
+
+// function calculateHypo(base,perpen){
+//   function calculateSqu(x) {
+//     return x** 2;
+//   }
+// var hypSquare=calculateSqu(base) + calculateSqu(perpen)
+// return hypSquare;
+// }
+// console.log(calculateHypo(10 ,5));
 
 
-
+//__________________________________________QUESTION 9
 
 
 
