@@ -23,27 +23,87 @@
 // }
 // sum()
 //__________________________________________QUESTION NO 4
-function calculator(num1, num2, operator) {
-  if (operator === "+") {
-    console.log(num1 + num2);
-  } else if (operator === "-") {
-    console.log(num1 - num2);
-  } else if (operator === "/") {
-    console.log(num1 / num2);
-  } else if (operator === "*") {
-    console.log(num1 * num2);
-  } else {
-    console.log("Invalid operator! ");
-  }
-}
-  var value1 = +prompt("Enter first number");
-  var value2 = +prompt("Enter second number");
-  var oper = prompt("Enter operator ");
+// function calculator(num1, num2, operator) {
+//   if (operator === "+") {
+//     console.log(num1 + num2);
+//   } else if (operator === "-") {
+//     console.log(num1 - num2);
+//   } else if (operator === "/") {
+//     console.log(num1 / num2);
+//   } else if (operator === "*") {
+//     console.log(num1 * num2);
+//   } else {
+//     console.log("Invalid operator! ");
+//   }
+// }
+//   var value1 = +prompt("Enter first number");
+//   var value2 = +prompt("Enter second number");
+//   var oper = prompt("Enter operator ");
 
-calculator(value1 , value2 ,  oper);
+// calculator(value1 , value2 ,  oper);
 
 
 //________________________________QUESTION NO 5
+
+
+
+
+//____________________________________QUESTION NO 6
+function factorial(n) {
+  var result = 1
+  for(var i=1; i<=n;i++){
+    result*=i
+  }
+  return result
+}
+var userInput=prompt("Enter a num: ");
+document.write(factorial(userInput));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
